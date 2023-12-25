@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{35d8605d-72bb-4666-9376-f605caf03c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{3ea60217-44fc-4fa9-987e-36ea47387407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{faa76ac8-f97e-4e27-a028-c207855917cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Debug">
+      <UniqueIdentifier>{5e64ca52-cb0d-40c1-8acb-6a8d2435dfdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{2d026084-067b-4fb9-9071-fa5e28d30c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{81bff0aa-f47a-40de-94b8-316166237165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{8b7a5ad2-1125-46c0-94a4-464fa8613a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\Menu">
+      <UniqueIdentifier>{b3c6c5cd-1f44-4899-9bdb-7347887559f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils">
+      <UniqueIdentifier>{c6c2b976-13af-424e-99e0-9d45d8968dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Entity">
+      <UniqueIdentifier>{c621fac6-1727-4c28-89ca-e0d47e516bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Externs">
+      <UniqueIdentifier>{d7a3860a-b512-49cb-a9e6-e297898ff0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\Style">
+      <UniqueIdentifier>{eb6fc926-e398-4492-ad5a-56cd0b4b07f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\Menu\Overlay">
+      <UniqueIdentifier>{b3f736b8-d83a-40cf-9e83-610786ca0123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Scene">
+      <UniqueIdentifier>{086fd2a8-bb99-428a-af18-074ce8a8440f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\AimBot">
+      <UniqueIdentifier>{47974e90-b99c-4afb-8a44-e3870d871e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Starfe">
+      <UniqueIdentifier>{fbdae326-7fe4-488a-bfba-a365a9583dd7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Driver.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>SDK\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>SDK\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_tables.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx11.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Overlay\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp">
+      <Filter>Overlay\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay.cpp">
+      <Filter>Overlay\Menu\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="NoRecoli.h">
+      <Filter>SDK\AimBot</Filter>
+    </ClCompile>
+    <ClCompile Include="NoRecoli.cpp">
+      <Filter>SDK\AimBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Starfe.cpp">
+      <Filter>SDK\Starfe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger.h">
+      <Filter>SDK\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>SDK\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>SDK\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Externs.h">
+      <Filter>SDK\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\color.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_settings.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="background.h">
+      <Filter>Overlay\Style</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx11tex.h">
+      <Filter>Overlay\Style</Filter>
+    </ClInclude>
+    <ClInclude Include="ico_pack.h">
+      <Filter>Overlay\Style</Filter>
+    </ClInclude>
+    <ClInclude Include="inter.h">
+      <Filter>Overlay\Style</Filter>
+    </ClInclude>
+    <ClInclude Include="user_circle.h">
+      <Filter>Overlay\Style</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx11.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Overlay\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Overlay\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay.h">
+      <Filter>Overlay\Menu\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="PRO.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="HighlightManager.h">
+      <Filter>SDK\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="AimBot.h">
+      <Filter>SDK\AimBot</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureManager.h">
+      <Filter>SDK\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Starfe.h">
+      <Filter>SDK\Starfe</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
